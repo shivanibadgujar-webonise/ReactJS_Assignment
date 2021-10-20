@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(179, 150, 228) ;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Title{
+position: absolute;
+top: 100px;
+left: 500px;
+
+}
+
+
+.login-div{
+  background-color:rgba(5, 4, 5, 0.699) ;
+  color: rgb(252, 248, 248);
+  width: 25%;
+  margin-top: 150px;
+  margin-left: 500px;
+  padding: 60px 10px 60px 10px;
+}
+
+
+.Label{
+  margin-left: 60px;
+  font-weight: 900;
+
+}
+
+.login-input{
+  margin-left: 60px;
+  padding: 8px 14px;
+  outline-style: none;
+  }
+
+.submit-button{
+  margin-left: 140px;
+  padding: 8px 14px;
+  background-color: rgb(250, 247, 252);
+  border-radius: 15px;
+  border: none;
+  font-weight: 800;
+}
+
+.todoListMain{  
+
+  margin-left: 500px;
+  margin-top: 100px;
+  
+  
+}
+
+.todoListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+  width: 165px;
+}
+
+.todoListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #ffffff;
+  color: rgb(5, 4, 4);
+  border: 2px solid #0405055d;
+}
+
+.todoListMain .header button:hover {
+  background-color: #6d7177;
+  border: 2px solid #01050e;
+  cursor: pointer;
+}
+
+
+.redirectLink{
+  position: absolute;
+  right: 50px;
+  top: 30px;
+  border:2px solid #01050e;
+  background-color: rgba(255, 255, 255, 0.979);
+  padding: 2px 4px;
+}
+
+
+
+.todoTitle{
+  margin-left: 40px;
+}
+
+
+.spanError{
+  position: absolute;
+  color: red;
+  left: 600px;
+}
